@@ -27,9 +27,9 @@
             
             <div class="artist__info__meta">
             
-                <div class="artist__info__type">Artist</div>
+                <div class="artist__info__type">Playlist</div>
                 
-                <div class="artist__info__name">G-Eazy</div>
+                <div class="artist__info__name">G-Eazy Playlist</div>
                 
                 <div class="artist__info__actions">
                 
@@ -38,11 +38,7 @@
                     Play
                 </button>
                 
-                <button class="button-light">Follow</button>
-                
-                <button class="button-light more">
-                    <i class="ion-ios-more"></i>
-                </button>
+                <button class="button-light">Delete</button>
                 
                 </div>
                 
@@ -53,9 +49,9 @@
             
             <div class="artist__listeners">
             
-            <div class="artist__listeners__count">15,662,810</div>
+            <div class="artist__listeners__count">4 min 11 seconds in total</div>
             
-            <div class="artist__listeners__label">Monthly Listeners</div>
+            <div class="artist__listeners__label">2 Songs</div>
             
             </div>
             
@@ -100,33 +96,6 @@
     </section>
     <div class="album">
                 
-                <div class="album__info">
-                
-                  <div class="album__info__art">
-                  
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/7022/whenDarkOut.jpg" alt="When It's Dark Out" />
-                    
-                  </div>
-                  
-                  <div class="album__info__meta">
-                  
-                    <div class="album__year">2015</div>
-                    
-                    <div class="album__name">When It's Dark Out</div>
-                    
-                    <div class="album__actions">
-                    
-                      <button class="button-light save">Save</button>
-                      
-                      <button class="button-light more">
-                        <i class="ion-ios-more"></i>
-                      </button>
-                      
-                    </div>
-                    
-                  </div>
-                  
-                </div>
                 
                 <div class="album__tracks">
                 
@@ -207,6 +176,99 @@
                       </div>
 
                     </div>
+                    <div class="overview__related">
+
+                <div class="section-title">Related Artists</div>
+                
+                <div class="related-artists">
+                
+                  <a href="#" class="related-artist">
+                  
+                    <span class="related-artist__img">
+                    
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/7022/hoodie.jpg" alt="Hoodie Allen">
+                      
+                    </span>
+                    
+                    <span class="related-artist__name">Hoodie Allen</span>
+                    
+                  </a>
+                  
+                  <a href="#" class="related-artist">
+                  
+                    <span class="related-artist__img">
+                    
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/7022/mikestud.jpg" alt="Mike Stud">
+                      
+                    </span>
+                    
+                    <span class="related-artist__name">Mike Stud</span>
+                    
+                  </a>
+                  
+                  <a href="#" class="related-artist">
+                  
+                    <span class="related-artist__img">
+                    
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/7022/drake.jpeg" alt="Drake">
+                      
+                    </span>
+                    
+                    <span class="related-artist__name">Drake</span>
+                    
+                  </a>
+                  
+                  <a href="#" class="related-artist">
+                  
+                    <span class="related-artist__img">
+                    
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/7022/jcole.jpg" alt="J. Cole">
+                      
+                    </span>
+                    
+                    <span class="related-artist__name">J. Cole</span>
+                    
+                  </a>
+                  
+                  <a href="#" class="related-artist">
+                  
+                    <span class="related-artist__img">
+                    
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/7022/bigsean.jpg" alt="Big Sean">
+                      
+                    </span>
+                    
+                    <span class="related-artist__name">Big Sean</span>
+                    
+                  </a>
+                  
+                  <a href="#" class="related-artist">
+                  
+                    <span class="related-artist__img">
+                    
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/7022/wiz.jpeg" alt="Wiz Khalifa">
+                      
+                    </span>
+                    
+                    <span class="related-artist__name">Wiz Khalifa</span>
+                    
+                  </a>
+                  
+                  <a href="#" class="related-artist">
+                  
+                    <span class="related-artist__img">
+                    
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/7022/yonas.jpg" alt="Yonas">
+                      
+                    </span>
+                    
+                    <span class="related-artist__name">Yonas</span>
+                    
+                  </a>
+                  
+                </div>
+
+              </div>
               
                         
                 
