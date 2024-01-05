@@ -12,6 +12,5 @@ class PlaylistController extends controller{
         $arr = array()
     }
 
-    public function 
 
 }
