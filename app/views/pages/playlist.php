@@ -34,15 +34,16 @@ input[type="range"]::-webkit-slider-thumb:hover {
     <div class="px-3 py-3">
       <ul>
         <li class="text-gray-400 hover:bg-opacity-10 hover:bg-white px-2 flex items-center rounded-sm capitalize cursor-pointer">
-          <svg width="24px" height="48px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus">
-            <line x1="12" y1="5" x2="12" y2="19"></line>
-            <line x1="5" y1="12" x2="19" y2="12"></line>
-          </svg>
-          <form action="">
-<input type="text" value= "Add playlist" name="placelistname"  class="px-4">
-</input>
+          <form action="<?php echo URLROOT ?>/PlaylistController/addPlaylistClient" method="post">
+        <input type="text" placeholder= "Playlist name" name="playlistname"  class="block w-full p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+        </input>
+        <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white" for="file_input">Upload file</label>
+        <input class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400" id="file_input" name = "image" type="file">
+        <input class="mt-1 focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800" type="submit" name="addPlaylist" value="Ajouter playlist">
+        
+
           </form>
-        </li>
+        </li>      
       </ul>
     </div>
   </div>
@@ -68,7 +69,6 @@ input[type="range"]::-webkit-slider-thumb:hover {
     <div class="flex">
       <button class="mr-2 bg-green-500 text-green-100 block py-2 px-8 rounded-full">Play</button>
       <button class="mr-2 border border-white block p-2 rounded-full">Supprimer</button>
-      <button class="mr-2 border border-white block p-2 rounded-full">...</button>
     </div>
   </div>
   
